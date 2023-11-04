@@ -59,6 +59,14 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/74b5928b-111d-4b35-a06d-1b7d2c090a72?type=w580" width="500">
 </a>
 
+### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
+- 지역 검색을 통한 헬스장 찾는 기능
+- 비회원도 이용 가능
+
+<a href="https://github.com/NohEuijin/project_2/assets/141835418/9d4dc574-1eae-4e4b-9448-4d3f86778a0d"> 
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/9d4dc574-1eae-4e4b-9448-4d3f86778a0d?type=w580" width="500">
+</a>
+
 ### 🥩관리자(회원관리,게시글관리)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%EB%93%B1%EB%A1%9D"> WIKI로 이동</a>
 🔦관리자(회원관리)
 - 이메일 & 닉네임 으로 검색 및 최신 가입일 순으로 정렬
@@ -81,12 +89,6 @@
 
 <a href="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8"> 
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8?type=w580" width="500">
-</a>
-
-### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
-
-<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> 
- <img src="https://github.com/NohEuijin/RedMedicine2/assets/141835418/e34eeebf-bb32-4e68-a7aa-4497a9a10189?type=w580" width="500">
 </a>
 
 ### 🥩상담예약 회원관리<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> WIKI로 이동</a>
