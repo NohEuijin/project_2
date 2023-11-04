@@ -94,14 +94,17 @@
 ### 🥩관리자 공지사항(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
 - 관리자 글쓰기 버튼 : 회원(자유게시판으로 이동) , 비회원(로그인으로 이동)
 - 작성한 글의 제목을 클릭하면 조회수가 오른다.
+- 제목, 내용으로 검색 및 최신 작성 순으로 정렬
+- 게시글 10개 당 1페이지로 페이징 처리
 
 <a href="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8"> 
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8?type=w580" width="500">
 </a>
 
 ### 🥩자유게시판(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
-- 작성한 글의 제목을 클릭하면 조회수가 오른다.
-- 
+- 작성한 글의 제목을 클릭하면 조회수 증가
+- 제목, 닉네임, 내용으로 검색 및 최신 작성 순으로 정렬
+- 게시글 10개 당 1페이지로 페이징 처리
 
 <a href="https://github.com/NohEuijin/project_2/assets/141835418/3ec11a30-f6d1-4657-8e7f-d6c9e84c529c"> 
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/3ec11a30-f6d1-4657-8e7f-d6c9e84c529c?type=w580" width="500">
