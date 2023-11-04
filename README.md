@@ -67,7 +67,7 @@
 
 <a href="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0"> 
 <img src="https://github.com/NohEuijin/project_2/assets/141835418/42d14d68-851e-4cbf-afbc-b4bb9c8ffb1c?type=w580" width="500">
-<img src="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0" width="500">
+<img src="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0?type=w580"" width="500">
 </a>
 
 ### 🥩상담사 프로필(목록)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
