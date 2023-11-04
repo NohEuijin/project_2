@@ -60,28 +60,30 @@
 </a>
 
 ### 🥩관리자(회원관리,게시글관리)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%EB%93%B1%EB%A1%9D"> WIKI로 이동</a>
-- 상담사는 유료상담사, 무료상담사로 구분
-- 상담사 회원은 결제를 완료하면 유료 상담사로 활동이 가능
-- 유료 상담사는 등록 페이지에서 비용을 입력 가능한 칸이 나타남
-- 상담사의 프로필 이미지를 첨부파일로 등록이 가능
+🔦관리자(회원관리)
+- 이메일 & 닉네임 으로 검색 및 최신 가입일 순으로 정렬
+- 회원 정보 10개 당 1페이지로 페이징 처리
+- 회원 탈퇴 기능
 
+🔦관리자(게시글관리)
+- 제목 & 닉네임 으로 검색 및 최신 작성 순으로 정렬
+- 게시글 정보 10개 당 1페이지로 페이징 처리
+- 게시글 제목 클릭 시 해당 게시글로 이동
+- 글삭제 기능
 <a href="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0"> 
-<img src="https://github.com/NohEuijin/project_2/assets/141835418/42d14d68-851e-4cbf-afbc-b4bb9c8ffb1c?type=w580" width="500">
-<img src="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0?type=w580"" width="500">
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/42d14d68-851e-4cbf-afbc-b4bb9c8ffb1c?type=w580" width="500">
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0?type=w580" width="500">
 </a>
 
-### 🥩상담사 프로필(목록)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
-- 비용을 기준으로 찾아와 보여줌.
+### 🥩관리자 공지사항(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
+- 관리자 글쓰기 버튼 : 회원(자유게시판으로 이동) , 비회원(로그인으로 이동)
+- 작성한 글의 제목을 클릭하면 조회수가 오른다.
 
-<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> 
- <img src="https://github.com/2teamSpring/RedMedicine/assets/141835418/8da2cb24-0160-4239-b2b9-2022da9132ad?type=w580" width="500">
+<a href="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8"> 
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8?type=w580" width="500">
 </a>
 
-### 🥩상담사 프로필(상세보기)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
-- 상담사 목록에서 상담사 프로필 클릭시 상세보기로 이동
-- 로그인한 본인의 상담사 상세보기 페이지라면 삭제가 가능
-- 예약 버튼 클릭 시 예약 페이지로 이동
-- 상담 후 댓글이 가능
+### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
 
 <a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> 
  <img src="https://github.com/NohEuijin/RedMedicine2/assets/141835418/e34eeebf-bb32-4e68-a7aa-4497a9a10189?type=w580" width="500">
