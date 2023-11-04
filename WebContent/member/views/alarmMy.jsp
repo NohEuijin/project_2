@@ -13,7 +13,7 @@
 </head>
 <body>
 
-	<jsp:include page="../../headerMy.jsp"/>
+	<jsp:include page="../../header.jsp"/>
 
     <main>
         <div class="main-container">

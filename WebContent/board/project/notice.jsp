@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +31,11 @@
                     </div>
                 </div>
             </div>
+            <form action="${pageContext.servletContext.contextPath}/project/noticeListOk.no" method="post">
             <div class="main-box2">
                 <div class="main-box2-titlebox">
                     <div class="main-box2-title">
-                    <a href="${pageContext.request.contextPath}/community.jsp">커뮤니티</a>
+                    <a href="${pageContext.request.contextPath}/board/project/community.jsp">커뮤니티</a>
                     <div id="title2">&gt;</div><div id="title2">공지사항</div></div>
                 </div>
                 <div class="main-box2-content">
@@ -50,7 +52,11 @@
 						    <div class="main-box2-content-content">
 						        <div class="main-box2-content-title"><a href="${pageContext.request.contextPath}/board/views/noticeReadOk.no?noticeNumber=${notice.getNoticeNumber()}">${notice.getNoticeTitle()}</a></div>
 						        <div class="main-box2-content-nickname">${notice.getUserNickname()}</div>
-						        <div class="main-box2-content-date">${notice.getNoticeDate()}</div>
+						        <div class="main-box2-content-date">
+   						        	<fmt:parseDate var="dateFmt" pattern="yyyy-MM-dd HH:mm:ss.SSS" value="${notice.getNoticeDate()}"/>
+									<fmt:formatDate var="dateTempParse" pattern="yyyy-MM-dd" value="${dateFmt}"/>
+									<c:out value="${dateTempParse}"/>
+						        </div>
 						        <div class="main-box2-content-count">${notice.getNoticeCount()}</div>
 						    </div>
 						</c:forEach>
@@ -74,12 +80,12 @@
 			    <div class="main-box3-pages">
 			        <ul class="notice-ul">
 			            <c:if test="${startPage > 1}">
-			                <li class="notice-li"><a href="?page=1&rowCount=${rowCount}" class="prev">&lt;</a></li>
+			                <li class="notice-li"><a href="?page=1&rowCount=${rowCount}" class="prev"></a></li>
 			            </c:if>
 			            <c:forEach var="pageNum" begin="${startPage}" end="${endPage}">
 			                <c:choose>
 			                    <c:when test="${page eq pageNum}">
-			                        <li class="notice-li"><span>${pageNum}</span></li>
+			                        <li class="notice-li"><a href="?page=${pageNum}&rowCount=${rowCount}"><span>${pageNum}</span></a></li>
 			                    </c:when>
 			                    <c:otherwise>
 			                        <li class="notice-li"><a href="?page=${pageNum}&rowCount=${rowCount}">${pageNum}</a></li>
@@ -87,7 +93,7 @@
 			                </c:choose>
 			            </c:forEach>
 			            <c:if test="${next}">
-			                <li class="notice-li"><a href="?page=${endPage + 1}&rowCount=${rowCount}" class="next">&gt;</a></li>
+			                <li class="notice-li"><a href="?page=${endPage + 1}&rowCount=${rowCount}" class="next"></a></li>
 			            </c:if>
 			        </ul>
 			    </div>
@@ -96,17 +102,16 @@
              <!-- ========== 페이징처리 끝=========== -->
                 <div class="main-box3-searchpart">
                     <div class="main-box3-searchbox">
-                        <select name="search-target" id="">
+                        <select name="searchType">
                             <option value="title">제목</option>
-                            <option value="writer">작성자</option>
                             <option value="content">내용</option>
                         </select>
-                        <input type="text">
+                        <input type="text" name="keyword">
                         <button>검색</button>
                     </div>
                 </div>
             </div>
-            
+          </form>
              <div class="main-box4">
                 <button><a id="writing-button" href="${pageContext.request.contextPath}/board/views/noticeWrite.no?userLevel=${user.getuserLevel()}">글쓰기</a></button>
             </div>

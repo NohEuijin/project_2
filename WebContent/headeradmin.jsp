@@ -33,9 +33,9 @@
                 <ul class="header-box2">
                     
                         <c:if test="${sessionScope.userNumber != null}">
-                        <div class="header-box2-img"><a href="${pageContext.request.contextPath}/member/views/alarm.jsp">
+                    <!--     <div class="header-box2-img"><a href="${pageContext.request.contextPath}/member/views/alarm.jsp">
                           		<img src="${pageContext.request.contextPath}/img/bell3.png" alt="" >
-                          	</div>
+                          	</div>--> 
                         <li>	
                          	</a>
 	                        <a id="nickname" href="${pageContext.request.contextPath}/member/views/mypage.jsp">

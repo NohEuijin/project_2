@@ -20,6 +20,14 @@ a {
   padding: 0;
   font-family: 'NanumSquareNeo-Variable';
 }
+.fboard-ul {
+	list-style: none;
+	display : flex;
+}
+.fboard-li{
+	list-style: none;
+	margin: 0 5px;
+}
 main{
   width: 100vw;
   /* background-color: antiquewhite; */
@@ -303,3 +311,18 @@ display: block;
 #privacy-button{
   color: gray;
 }
+textarea{
+	resize: none;
+	white-space: break-spaces;
+}
+/*페이징 처리*/
+.prev::before {
+    content: '\003c'; /* '<' 문자의 유니코드 */
+    /* 기타 스타일 속성 */
+}
+
+.next::before {
+    content: '\003e'; /* '>' 문자의 유니코드 */
+    /* 기타 스타일 속성 */
+}
+/*페이징 처리 끝*/

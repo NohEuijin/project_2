@@ -33,7 +33,7 @@
                     </div>
                     <div class="addfile">
                         <div class="addfile-text">
-                            <div class="addfile-text1">첨부파일</div>
+                        <!--    <div class="addfile-text1">첨부파일</div>
                             <div class="addfile-text2">'png', 'gif', 'jpg', 'jpeg' 파일만 업로드 가능합니다.</div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         <div class="addfiles1">
                             <input type="file" id="file" name="boardFile" accept=".jpg, .jpeg, .png" multiple />
                         </div>
-                    </div>
+                    </div>-->  
                     <!-- 취소 버튼 -->
                     <div class="buttons">
                     <button id="button1" onclick="call_confirm1()">
@@ -49,6 +49,7 @@
                     </button>
                     <!-- 등록 버튼 -->
                     <button id="button2" class="button2" onclick="call_confirm2()">
+                    등록
                     </button>
                     </div>
                 </form>

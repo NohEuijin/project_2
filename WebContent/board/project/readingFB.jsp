@@ -26,7 +26,11 @@
                     <div class="date">2023-08-18</div>
                 </div>
                 <div class="main-box1-contentbox">
-                    <div class="main-box1-content">글내용</div>
+                    <div class="main-box1-content">
+	                   <textarea readonly>
+	                   글내용
+	                   </textarea>
+                    </div>
                 </div>
             </div> 
             <div class="main-box2">

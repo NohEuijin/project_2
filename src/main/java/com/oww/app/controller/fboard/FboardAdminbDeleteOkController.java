@@ -11,7 +11,7 @@ import com.oww.app.Result;
 import com.oww.app.dao.FboardDAO;
 import com.oww.app.dto.FboardDTO;
 
-public class FboardDeleteOkController implements Execute{
+public class FboardAdminbDeleteOkController implements Execute{
 
 	@Override
 	public Result execute(HttpServletRequest request, HttpServletResponse response)
@@ -34,7 +34,7 @@ public class FboardDeleteOkController implements Execute{
 	        result.setPath(request.getContextPath());
 			
 	        String contextPath = request.getContextPath();
-	        response.sendRedirect(contextPath + "/project/adminb.me");
+	        response.sendRedirect(contextPath + "/project/fboardListOk.fb");
 			
 		return null;
 	}

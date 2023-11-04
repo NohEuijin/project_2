@@ -18,12 +18,12 @@
                 </div>
                 <div class="main-box1-content">
                     <div class="main-box1-content-button">
-                        <a href="./freeBoard.jsp">
+                        <a href="${pageContext.request.contextPath}/project/fboardListOk.fb">
                             <img class="img1" src="${pageContext.request.contextPath}/img/002.png" alt="">
                             <img class="img2" src="${pageContext.request.contextPath}/img/004.png" alt=""></a>
                     </div>
                     <div class="main-box1-content-button">
-                        <a href="./notice.jsp">
+                        <a href="${pageContext.request.contextPath}/project/noticeListOk.no">
                             <img class="img1" src="${pageContext.request.contextPath}/img/001.png" alt="">
                             <img class="img2" src="${pageContext.request.contextPath}/img/005.png" alt=""></a>
                     </div>
@@ -41,7 +41,7 @@
                         <div class="main-box2-content-count">조회수</div>
                     </div>
                     <div class="main-box2-content-content" id="notice-content">
-                        <div class="main-box2-content-title"><a href="./readingNT.jsp"">공지사항</a></div>
+                        <div class="main-box2-content-title"><a href="./readingNT.jsp">공지사항</a></div>
                         <div class="main-box2-content-nickname">관리자</div>
                         <div class="main-box2-content-date">2023-08-22</div>
                         <div class="main-box2-content-count">155</div>

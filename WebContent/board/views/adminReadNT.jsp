@@ -11,12 +11,12 @@
     <script defer src="${pageContext.request.contextPath}/js/adminReadNT.js"></script>
 </head>
 <body>
-   <%@include file ="../../headeradmin.jsp" %>
+    <%@include file ="../../header.jsp" %>
     <main>
         <div class="main-container">
             <div class="main-box1">
                 <div class="main-box1-titlebox">
-                    <div class="main-box1-title"><div id="title1"><a href="../pro/community.jsp">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="../pro/notice.jsp">공지사항</a></div></div>
+                    <div class="main-box1-title"><div id="title1"><a href="${pageContext.request.contextPath}/project/noticeListOk.no">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="${pageContext.request.contextPath}/project/noticeListOk.no">공지사항</a></div></div>
                 </div>
                 <div class="writing-title-box">
                     <div class="writing-title">${notice.getNoticeTitle()}</div>

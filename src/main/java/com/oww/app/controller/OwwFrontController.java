@@ -120,7 +120,14 @@ public class OwwFrontController extends HttpServlet {
 					System.out.println("============완료후");
 					break;
 				case "/member/views/userDeleteOk.me":
-					new UserDeleteOkController().execute(request, response);
+					System.out.println("====회원탈퇴 진입");
+					result = new UserDeleteOkController().execute(request, response);
+					System.out.println("회원탈퇴 완료후====");
+					break;
+				case "/member/views/adminUserDeleteOk.me":
+					System.out.println("====회원탈퇴처리 진입");
+					new AdminDeleteOkController().execute(request, response);
+					System.out.println("회원탈퇴처리 완료후====");
 					break;
 				}
 		      

@@ -23,7 +23,4 @@ public class SearchVO {
 	public String toString() {
 		return "SearchVO [keyword=" + keyword + ", searchType=" + searchType + "]";
 	}
-	
-	
-	
 }

@@ -33,14 +33,20 @@
                 <ul class="header-box2">
                     
                         <c:if test="${sessionScope.userNumber != null}">
-                        <div class="header-box2-img"><a href="${pageContext.request.contextPath}/member/views/alarmy.jsp">
-                          		<img src="${pageContext.request.contextPath}/img/bell3.png" alt="" ></a>
-                          	</div>
                         <li>	
-                         	</a>
+                         	
+                    	<c:if test="${sessionScope.userNumber != 0}">
 	                        <a id="nickname" href="${pageContext.request.contextPath}/member/views/mypage.me">
 	                        	<c:out value="${sessionScope.userNickname}"/> 님
 	                        </a>
+                        </c:if>
+                        
+                       	<c:if test="${sessionScope.userNumber == 0}">
+	                        <a id="nickname" href="${pageContext.request.contextPath}/project/admin.me">
+	                        	<c:out value="${sessionScope.userNickname}"/> 님
+	                        </a>
+                        </c:if>
+                        
 	                        <a href="${pageContext.request.contextPath}/project/logoutOk.me">로그아웃</a>
 	                        </li>
                         </c:if>

@@ -3,14 +3,6 @@ package com.oww.app.vo;
 import java.sql.Timestamp;
 
 public class UserVO {
-//	u.user_number
-//	u.user_nickname
-//	u.user_email
-//	f.fboard_number
-//	f.fboard_title
-//	f.fboard_content
-//	f.fboard_date
-//	f.fboard_count
 	
 	private int userNumber;
 	private String userNickname;

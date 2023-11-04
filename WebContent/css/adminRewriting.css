@@ -90,6 +90,7 @@ main{
     border: 0.5px solid gray;
     border-radius: 2px;
     margin: 0 5px;
+    text-indent : 4px
 }
 .content-nickname{
     width: 960px;
@@ -107,6 +108,15 @@ main{
     border-radius: 2px;
     margin: 0 5px;
     padding: 3px;
+}
+.writer{
+    width: 960px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    /* background-color: pink; */
 }
 .content-content{
     width: 960px;
@@ -214,6 +224,7 @@ main{
 .button2{
     margin: 0 10px 0 0;
     background-color: black;
+    color: white;
 }
 #button1 , #button2{
     color: white;
@@ -224,4 +235,8 @@ main{
 }
 #privacy-button{
     color: gray;
+}
+textarea{
+	resize: none;
+	white-space: break-spaces;
 }

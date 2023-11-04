@@ -25,6 +25,8 @@ public class NoticeReadOkController implements Execute {
     	NoticeVO noticeVO = noticeDAO.selectAll2(noticeNumber);
     	System.out.println("test3");
         // 요청 객체에 속성(attribute)을 설정합니다.
+    	noticeDAO.countUpdate(noticeNumber);
+    	//조회수 증가
         request.setAttribute("notice", noticeVO);
     	System.out.println("test4");
         // 원하는 JSP 페이지로 포워딩합니다.

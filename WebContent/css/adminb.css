@@ -160,8 +160,8 @@ display: flex;
 }
 .main-box2{
   width: 980px;
-  height: 560px;
-  /* background-color: pink; */
+  /* height: 560px;
+  background-color: pink; */
 }
 
 .main-box2-title{
@@ -187,11 +187,11 @@ display: flex;
 }
 .main-box2-content{
   width: 1000px;
-  height: 500px;
-  /* text-align: center;
+  /*height: 500px;
+   text-align: center;
   line-height: 200px; */
-  border-bottom: 1px solid rgb(239, 239, 239);
-  /* background-color: pink; */
+ /* border-bottom: 1px solid rgb(239, 239, 239);
+   background-color: pink; */
 
   /* margin-top: 50px; */
 }

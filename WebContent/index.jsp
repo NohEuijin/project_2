@@ -47,7 +47,11 @@
 								href="${pageContext.request.contextPath}/board/project/freeBoard.jsp"><h1>&nbsp;자유게시판</h1></a>
 						</div>
 						<div class="main-communitybox-contentbox">
-							<div class="main-communitybox-titleline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목</div>
+							<div class="main-communitybox-titleline">
+							<p class="ptage">제목</p>
+							
+							
+							</div>
 							<div class="main-communitybox-nickname">닉네임</div>
 						</div>
 
@@ -85,7 +89,9 @@
 								href="${pageContext.request.contextPath}/board/project/notice.jsp"><h1>&nbsp;공지사항</h1></a>
 						</div>
 						<div class="main-communitybox-contentbox">
-							<div class="main-communitybox-titleline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제목</div>
+							<div class="main-communitybox-titleline">
+								<p class="ptage">제목</p>
+							</div>
 							<div class="main-communitybox-nickname">관리자</div>
 						</div>
 				<!-- 공지사항 끝 -->

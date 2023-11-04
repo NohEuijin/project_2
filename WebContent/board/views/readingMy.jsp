@@ -17,9 +17,9 @@
             <div class="main-box1">
                 <div class="main-box1-titlebox">
                     <div class="main-box1-title">
-                        <div id="title1"><a href="../pro/community.jsp">커뮤니티</a></div>
+                        <div id="title1"><a href="${pageContext.request.contextPath}/project/fboardListOk.fb">커뮤니티</a></div>
                         <div id="title2">&gt;</div>
-                        <div id="title2"><a href="../pro/freeBoard.jsp">자유게시판</a></div>
+                        <div id="title2"><a href="${pageContext.request.contextPath}/project/fboardListOk.fb">자유게시판</a></div>
                     </div>
                 </div>
                 <div class="writing-title-box">
@@ -30,7 +30,9 @@
                     <div class="date">${fboard.getFboardDate()}</div>
                 </div>
                 <div class="main-box1-contentbox">
-                    <div class="main-box1-content">${fboard.getFboardContent()}</div>
+                    <div class="main-box1-content">
+                    ${fboard.getFboardContent()}
+                    </div>
                 </div>
             </div>
             <div class="main-box2">
@@ -43,37 +45,49 @@
                     </c:if>
                 </div>
             </div>
-            <div class="main-box3">
-                <div class="total-comments-box">
-                    <span class="comments-text">댓글</span>
-                    <span class="total-comments-text">1</span>
-                </div>
-                <div class="comments-box">
-                    <div class="comments-info-box">
-                        <div class="name-n-date">
-                            <div class="writer-name">작성자</div>
-                            <div class="written-date">2023-08-18 15:30:13</div>
-                        </div>
-                        <div class="comments-content-box">
-                            <div class="comments-content">
-                                댓글내용
-                            </div>
-                        </div>
+<div class="main-box3">
+                    <div class="total-comments-box">
+                        <span class="comments-text">댓글</span>
+                       <!--   <span class="total-comments-text"></span>-->
                     </div>
+                    <c:choose>
+            			<c:when test = "${not empty commentList}">
+            				<c:forEach var="comment" items="${commentList}">
+                    			<div class="comments-box">
+                    				<div class="comments-info-box">
+                        				<div class="name-n-date">
+                            				<div class="writer-name"><c:out value="${comment.getUserNickname()}"/></div>
+                            				<div class="written-date"><c:out value="${comment.getCommentDate()}"/></div>
+                        				</div>
+                        			<div class="comments-content-box">
+                            			<div class="comments-content">
+                                			<c:out value="${comment.getCommentContent()}"/>
+                            			</div>
+                        			</div>
+			                    <!--<div class="comments-buttons">
+			                            <button>수정</button>
+			                            <button>삭제</button>
+			                        </div> -->
+                        			</div>
+                    			</div>
+                    		</c:forEach>
+                    	</c:when>
+                    </c:choose>	
                 </div>
                 <div class="write-commentsbox">
                     <div class="comment-writer">
                         <div class="comment-writer-box">
-                            <div class="comment-writer-text">닉네임</div>
-                            <div class="comment-writer-name">작성자</div>
+                            <div>
+                            <input class="writer-nickname" readonly value="${userNickname}">
+                            </div>
                         </div>
                     </div>
                     <div class="commentbox">
                         <form action="" class="writing-comment">
-                           <textarea class="writing-comment-box" name="" id="commentbox"></textarea>
+                           <textarea class="writing-comment-box" name="" id="commentbox" placeholder="내용을 입력해 주세요."></textarea>
                             <div class="comment-button-box">
                                 <div class="comment-savebutton">
-                                    <button><a id="commentbutton" href="../views/readingMy.jsp">댓글등록</a></button>
+                                    <button><a id="commentbutton" href="${pageContext.request.contextPath}/board/views/fboardReadOk.fb?fboardNumber=${fboard.getFboardNumber()}"">댓글등록</a></button>
                                 </div>
                             </div>
                         </form>

@@ -3,14 +3,6 @@ package com.oww.app.vo;
 import java.sql.Timestamp;
 
 public class NoticeVO {
-//	u.user_number
-//	u.user_nickname
-//	n.notice_number
-//	n.notice_title
-//	n.notice_content, 
-//	n.notice_date
-//	n.notice_count 
-	
 	private int userNumber;
 	private String userNickname;
 	private int noticeNumber;

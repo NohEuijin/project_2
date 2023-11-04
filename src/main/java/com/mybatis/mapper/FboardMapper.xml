@@ -11,7 +11,7 @@
 	<!-- member가 갯수가 적기 때문에 선행되어 작성 -->
 	<select id="selectAll" resultType ="FboardVO"> <!-- 테이블과 일치하지 않는 결과값을 얻기 위해 VO를 사용한다. -->
 		select u.user_number, u.user_nickname, f.fboard_number, f.fboard_title, f.fboard_content, 
-		f.fboard_date, f.fboard_count 
+		f.fboard_date, f.fboard_count ㄴ
 		from tbl_user u join tbl_fboard  f 
 		on u.user_number = f.user_number 
 	</select>
@@ -22,7 +22,11 @@
 		FROM tbl_user u INNER JOIN tbl_fboard f 
 		ON u.user_number = f.user_number 
 		WHERE f.fboard_number = #{fboardNumber};
+	</select>
 
+	
+	<select id="getTotalCount" resultType="int">
+    	SELECT COUNT(*) FROM tbl_fboard
 	</select>
 	
 	<!-- 자우게시판 게시글 데이터 삽입 -->
@@ -42,6 +46,45 @@
 		set fboard_title = #{fboardTitle}, fboard_content = #{fboardContent}
 		where fboard_number = #{fboardNumber}
 	</update>
+	
+	<!-- 자유게시판 조회수 카운터 -->
+	<update id="countUpdate" parameterType="int">
+		UPDATE tbl_fboard
+		SET fboard_count = fboard_count + 1
+		WHERE fboard_number = #{fboardNumber}
+	</update>
+	
+	<!-- 페이징 처리 쿼리 및 제목 검색 쿼리 통합 -->
+	<select id="searchByTitlepage" resultType="FboardVO" parameterType="map">
+	    select u.user_number, u.user_nickname, u.user_Email, f.fboard_number, f.fboard_title, f.fboard_content, f.fboard_date, f.fboard_count
+	    from tbl_user u join tbl_fboard f
+	    on u.user_number = f.user_number
+    	where f.fboard_title like CONCAT('%', #{searchVO.keyword}, '%') 
+	    order by f.fboard_number DESC 
+	    LIMIT #{startRow}, 10
+	</select>
+	
+	<!-- 페이징 처리 쿼리 및 닉네임 검색 쿼리 통합 -->
+	<select id="searchByNicknamepage" resultType="FboardVO" parameterType="map">
+	    select u.user_number, u.user_nickname, u.user_Email, f.fboard_number, f.fboard_title, f.fboard_content, f.fboard_date, f.fboard_count
+	    from tbl_user u join tbl_fboard f
+	    on u.user_number = f.user_number
+    	where u.user_nickname like CONCAT('%', #{searchVO.keyword}, '%')
+	    order by f.fboard_number DESC 
+	    LIMIT #{startRow}, 10
+	</select>
+	
+	<!-- 페이징 처리 쿼리 및 내용 검색 쿼리 통합 -->
+	<select id="searchByFbContentpage" resultType="FboardVO" parameterType="map">
+	    select u.user_number, u.user_nickname, u.user_Email, f.fboard_number, f.fboard_title, f.fboard_content, f.fboard_date, f.fboard_count
+	    from tbl_user u join tbl_fboard f
+	    on u.user_number = f.user_number
+    	where f.fboard_content like CONCAT('%', #{searchVO.keyword}, '%')
+	    order by f.fboard_number DESC 
+	    LIMIT #{startRow}, 10
+	</select>
+	
+
 </mapper>
 
 

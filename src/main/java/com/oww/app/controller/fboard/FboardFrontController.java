@@ -65,6 +65,10 @@ public class FboardFrontController extends HttpServlet {
 			System.out.println("fboardDeleteOk 완료");
 			result = new FboardDeleteOkController().execute(request, response);
 			break;
+		case "/board/views/fboardAdminbDeleteOk.fb":
+			System.out.println("fboardAdminbDeleteOk 완료");
+			result = new FboardDeleteOkController().execute(request, response);
+			break;
 		case "/board/views/fboardUpdate.fb":
 			System.out.println("fboardUpdate 완료");
 			result = new FboardUpdateController().execute(request, response);

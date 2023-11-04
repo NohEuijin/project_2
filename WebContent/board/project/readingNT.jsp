@@ -14,7 +14,10 @@
         <div class="main-container">
             <div class="main-box1">
                 <div class="main-box1-titlebox">
-                    <div class="main-box1-title"><div id="title1"><a href="./community.jsp">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="./notice.jsp">공지사항</a></div></div>
+                    <div class="main-box1-title">
+                    <div id="title1"><a href="${pageContext.request.contextPath}/project/noticeListOk.no">커뮤니티</a></div>
+                    <div id="title2">&gt;</div>
+                    <div id="title2"><a href="${pageContext.request.contextPath}/project/noticeListOk.no">공지사항</a></div></div>
                 </div>
                 <div class="writing-title-box">
                     <div class="writing-title">글제목</div>

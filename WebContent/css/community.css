@@ -20,6 +20,14 @@
     padding: 0;
     font-family: 'NanumSquareNeo-Variable';
   }
+.fboard-ul {
+	list-style: none;
+	display : flex;
+}
+.fboard-li{
+	list-style: none;
+	margin: 0 5px;
+}
  
 main{
     width: 100vw;
@@ -255,4 +263,8 @@ main{
 }
 #privacy-button{
     color: gray;
+}
+textarea{
+	resize: none;
+	white-space: break-spaces;
 }

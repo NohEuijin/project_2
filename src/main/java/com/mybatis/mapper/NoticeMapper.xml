@@ -24,18 +24,6 @@
 		WHERE n.notice_number = #{noticeNumber}
 	</select>
 	
-	<select id="selectPage" resultType="NoticeVO" parameterType="map">
-		select u.user_number, u.user_Email, n.notice_number , n.notice_title , n.notice_content , n.notice_date , n.notice_count
-		from tbl_user u join tbl_notice n
-		on u.user_number = n.notice_number
-		order by notice_number desc
-		limit #{startRow}, 10
-	</select>
-	
-	<select id="getTotalCount" resultType="int">
-    	SELECT COUNT(*) FROM tbl_notice
-	</select>
-	
 	<!-- 공지사항 게시글 데이터 삽입 -->
 	<insert id="insert" parameterType="NoticeDTO">
 		INSERT INTO tbl_notice
@@ -49,10 +37,41 @@
 	</delete>
 	
 	<!-- 공지사항 게시글 수정 -->
-	<update id="update" parameterType="FboardDTO">
+	<update id="update" parameterType="NoticeDTO">
 		update tbl_notice
 		set notice_title = #{noticeTitle}, notice_content = #{noticeContent}
 		where notice_number = #{noticeNumber}
 	</update>
+	
+	<!-- 공지사항 조회수 카운터 -->
+	<update id="countUpdate" parameterType="int">
+		UPDATE tbl_notice
+		SET notice_count = notice_count + 1
+		WHERE notice_number = #{noticeNumber}
+	</update>
+
+	<select id="getTotalCount" resultType="int">
+	  	SELECT COUNT(*) FROM tbl_notice
+	</select>
+	
+	<!-- 페이징 처리 쿼리 및 제목 검색 쿼리 통합 -->
+	<select id="searchByTitlepage" resultType="NoticeVO" parameterType="map">
+	    select u.user_number, u.user_nickname, n.notice_number, n.notice_title, n.notice_content, n.notice_date, n.notice_count
+	    from tbl_user u join tbl_notice n
+	    on u.user_number = n.user_number
+	    where n.notice_title like CONCAT('%', #{searchVO.keyword}, '%')
+	    order by n.notice_number DESC
+	    LIMIT #{startRow}, 10
+	</select>
+
+	<!-- 페이징 처리 쿼리 및 내용 검색 쿼리 통합 -->
+	<select id="searchByNtContentpage" resultType="NoticeVO" parameterType="map">
+	    select u.user_number, u.user_nickname, n.notice_number, n.notice_title, n.notice_content, n.notice_date, n.notice_count
+	    from tbl_user u join tbl_notice n
+	    on u.user_number = n.user_number
+	    where n.notice_content like CONCAT('%', #{searchVO.keyword}, '%')
+	    order by n.notice_number DESC
+	    LIMIT #{startRow}, 10
+	</select>
 
 </mapper>

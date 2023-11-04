@@ -12,11 +12,16 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <%@include file ="../../headerMy.jsp" %>
+    <%@include file ="../../header.jsp" %>
     <main>
         <div class="main-container">
             <div class="main-box1-titlebox">
-                <div class="main-box1-title"><div id="title1"><a href="../pro/community.html">커뮤니티</a></div><div id="title2">&gt;</div><div id="title2"><a href="../pro/freeBoard.html">자유게시판</a></div></div>
+                <div class="main-box1-title">
+                <div id="title1"><a href="${pageContext.request.contextPath}/project/fboardListOk.fb">커뮤니티</a></div>
+                <div id="title2">&gt;</div>
+                <div id="title2"><a href="${pageContext.request.contextPath}/project/fboardListOk.fb">자유게시판</a>
+                </div>
+                </div>
             </div>
             <div class="content-container">
                 <form id="write-form" action="${pageContext.request.contextPath}/board/views/fboardUpdateOk.fb" method="post">
@@ -37,8 +42,8 @@
                      
                     <div class="addfile">
                         <div class="addfile-text">
-                            <div class="addfile-text1">첨부파일</div>
-                            <div class="addfile-text2">'png','gif','jpg','jpeg'파일만 업로드가 가능합니다.</div>
+                             <!--<div class="addfile-text1">첨부파일</div>
+                            <div class="addfile-text2">'png','gif','jpg','jpeg'파일만 업로드가 가능합니다.</div>-->
                         </div>
                     </div>
                     <div class="addfiles">

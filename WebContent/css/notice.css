@@ -153,6 +153,7 @@ display: block;
   align-items: center;
   /* background-color: aquamarine; */
   text-indent: 13px;
+  font-weight: bold;
 }
 .main-box2-content-nickname1{
   width: 120px;
@@ -161,6 +162,7 @@ display: block;
   justify-content: center;
   align-items: center;
   /* background-color: blueviolet; */
+   font-weight: bold;
 }
 .main-box2-content-date1{
   width: 130px;
@@ -195,6 +197,7 @@ display: block;
   align-items: center;
   /* background-color: aquamarine; */
   text-indent: 13px;
+  font-weight: bold;
 }
 .main-box2-content-nickname{
   width: 120px;
@@ -203,6 +206,7 @@ display: block;
   justify-content: center;
   align-items: center;
   /* background-color: blueviolet; */
+    font-weight: bold;
 }
 .main-box2-content-date{
   width: 130px;
@@ -319,4 +323,7 @@ display: block;
 }
 #privacy-button{
   color: gray;
+}
+textarea{
+	white-space: break-spaces;
 }

@@ -21,7 +21,8 @@
                 <div class="main-container-down">
                     <div class="main-container-down-section01">
                         <div class="main-container-down-section01-box">
-                            <button onclick="call_confirm()" class="main-container-down-section01-box-button">회원탈퇴</button>
+                            <!--  <button type="button"  onclick="call_confirm()" class="main-container-down-section01-box-button">회원탈퇴</button>-->
+                            <a class="diva" href="${pageContext.request.contextPath}/member/views/userDeleteOk.me">회원탈퇴</a>
                         </div>
                     </div>
                     <div class="main-container-down-section02">

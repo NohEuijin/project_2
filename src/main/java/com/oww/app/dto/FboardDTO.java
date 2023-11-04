@@ -18,7 +18,7 @@ public class FboardDTO {
 	private String fboardTitle;
 	private Timestamp fboardDate;
 	private String fboardContent;
-	private int fboardCount = '1';
+	private int fboardCount;
 	
 	public FboardDTO() {;}
 

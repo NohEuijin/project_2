@@ -13,7 +13,7 @@
    src="${pageContext.request.contextPath}/js/adminWriting.js"></script>
 </head>
 <body>
-   <%@include file="../../headeradmin.jsp"%>
+    <%@include file ="../../header.jsp" %>
    <main>
       <div class="main-container">
          <div class="main-box1-titlebox">
@@ -44,7 +44,7 @@
                </div>
                <div class="addfile">
                   <div class="addfile-text">
-                     <div class="addfile-text1">첨부파일</div>
+                   <!--   <div class="addfile-text1">첨부파일</div>
                      <div class="addfile-text2">'png','gif','jpg','jpeg'파일만 업로드가
                         가능합니다.</div>
                   </div>
@@ -55,7 +55,7 @@
                         <input type="file">
                      </form>
                   </div>
-               </div>
+               </div>--> 
                <!-- 취소 버튼 -->
                <div class="buttons">
                   <button id="button1" onclick="call_confirm1()">
@@ -64,6 +64,7 @@
                   </button>
                   <!-- 등록 버튼 -->
                   <button id="button2" class="button2" onclick="call_confirm2(event)">
+                  등록
                      <%-- <a id="button2" href="${pageContext.request.contextPath}/board/views/noticeWriteOk.no">등록</a> --%>
                   </button>
             </form>
