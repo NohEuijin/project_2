@@ -87,7 +87,6 @@
 
 <a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> 
  <img src="https://github.com/NohEuijin/RedMedicine2/assets/141835418/e34eeebf-bb32-4e68-a7aa-4497a9a10189?type=w580" width="500">
-  <img src="https://github.com/NohEuijin/RedMedicine2/assets/141835418/6e8bd8bb-5efd-4eef-aacb-d7b98382b577?type=w580" width="500">
 </a>
 
 ### 🥩상담예약 회원관리<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> WIKI로 이동</a>
@@ -98,7 +97,7 @@
 - 상담취소 또는 상담완료 버튼으로 관리 가능
 
 <a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> 
- <img src="https://github.com/donghyun3193/SpringRedMedicine/assets/131939490/5e4ce5c3-d455-4ebc-a67d-7cf4b76e90ee?type=w580" width="500">
+ <img src="?type=w580" width="500">
 </a>
 
 ### 🥩제휴등록<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%A0%9C%ED%9C%B4%EB%93%B1%EB%A1%9D"> WIKI로 이동</a>
@@ -106,6 +105,6 @@
 - 결제 버튼을 누르면 카카오페이로 결제가 진행
 - 결제 진행은 비동기로 처리
 
-<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%A0%9C%ED%9C%B4%EB%93%B1%EB%A1%9D"> 
- <img src="https://github.com/NohEuijin/RedMedicine2/assets/141835418/5a08dc2d-6aba-415d-8537-ddd1b034ec89?type=w580" width="500">
+<a href=""> 
+ <img src="?type=w580" width="500">
 </a>
