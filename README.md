@@ -59,6 +59,14 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/74b5928b-111d-4b35-a06d-1b7d2c090a72?type=w580" width="500">
 </a>
 
+### 🥩회원가입-로그인<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> WIKI로 이동</a>
+- 이메일, 닉네임, 비밀번호, 약관동의 유효성 검사
+- (중복검사 및 비밀번호일치, 약관 확인 여부)
+
+<a href="https://github.com/NohEuijin/project_2/assets/141835418/8ce7270b-9aeb-481f-889c-9ee7c05cc7df"> 
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/8ce7270b-9aeb-481f-889c-9ee7c05cc7df?type=w580" width="500">
+</a>
+
 ### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
 - 지역 검색을 통한 헬스장 찾는 기능
 - 비회원도 이용 가능
@@ -91,22 +99,10 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8?type=w580" width="500">
 </a>
 
-### 🥩상담예약 회원관리<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> WIKI로 이동</a>
-- 상담사는 로그인시 드롭다운에 상담예약관리가 생김
-- 상담 예약 관리 페이지에서는 이름, 상담날짜, 시간으로 검색이 가능(비동기)
-- 해당 페이지는 10을 기준으로 페이징 처리(비동기)
-- 상담을 예약한 회원의 정보를 번호와 이메일, 상담 내역을 모달창으로 확인 가능(비동기
-- 상담취소 또는 상담완료 버튼으로 관리 가능
+### 🥩자유게시판(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
+- 작성한 글의 제목을 클릭하면 조회수가 오른다.
+- 
 
-<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> 
- <img src="?type=w580" width="500">
-</a>
-
-### 🥩제휴등록<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%A0%9C%ED%9C%B4%EB%93%B1%EB%A1%9D"> WIKI로 이동</a>
-- 제휴를 등록하면 유료상담사가 됨
-- 결제 버튼을 누르면 카카오페이로 결제가 진행
-- 결제 진행은 비동기로 처리
-
-<a href=""> 
- <img src="?type=w580" width="500">
+<a href="https://github.com/NohEuijin/project_2/assets/141835418/3ec11a30-f6d1-4657-8e7f-d6c9e84c529c"> 
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/3ec11a30-f6d1-4657-8e7f-d6c9e84c529c?type=w580" width="500">
 </a>
