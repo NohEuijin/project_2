@@ -48,7 +48,7 @@
 
 ## 🏷담당 작업
 
-### 🥩메인페이지 <a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80"> WIKI로 이동</a>
+### 🥩메인페이지 <a href="https://github.com/NohEuijin/project_2/wiki/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80"> WIKI로 이동</a>
 - 로그인시 세션 유지되고 000 님 으로 닉네임 표시
 - UserNumber 0 = 관리자 / 이외 회원으로 설정
 - UserNumber 0 = "관리자 님" 이름 클릭 시 관리자 페이지 이동
@@ -59,7 +59,7 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/74b5928b-111d-4b35-a06d-1b7d2c090a72?type=w580" width="500">
 </a>
 
-### 🥩회원가입-로그인<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%98%88%EC%95%BD-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC"> WIKI로 이동</a>
+### 🥩회원가입-로그인<a href="https://github.com/NohEuijin/project_2/wiki/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%E2%80%90%EB%A1%9C%EA%B7%B8%EC%9D%B8"> WIKI로 이동</a>
 - 이메일, 닉네임, 비밀번호, 약관동의 유효성 검사
 - (중복검사 및 비밀번호일치, 약관 확인 여부)
 
@@ -67,7 +67,7 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/8ce7270b-9aeb-481f-889c-9ee7c05cc7df?type=w580" width="500">
 </a>
 
-### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0)"> WIKI로 이동</a>
+### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/project_2/wiki/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4%ED%97%AC%EC%8A%A4%EC%9E%A5(%EC%A7%80%EB%8F%84API)"> WIKI로 이동</a>
 - 지역 검색을 통한 헬스장 찾는 기능
 - 비회원도 이용 가능
 
@@ -75,7 +75,7 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/9d4dc574-1eae-4e4b-9448-4d3f86778a0d?type=w580" width="500">
 </a>
 
-### 🥩관리자(회원관리,게시글관리)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%EB%93%B1%EB%A1%9D"> WIKI로 이동</a>
+### 🥩관리자(회원관리,게시글관리)<a href="https://github.com/NohEuijin/project_2/wiki/%EA%B4%80%EB%A6%AC%EC%9E%90(%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC,%EA%B2%8C%EC%8B%9C%EA%B8%80%EA%B4%80%EB%A6%AC)"> WIKI로 이동</a>
 🔦관리자(회원관리)
 - 이메일 & 닉네임 으로 검색 및 최신 가입일 순으로 정렬
 - 회원 정보 10개 당 1페이지로 페이징 처리
@@ -91,7 +91,7 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/a5c84adb-8774-4a2b-8672-34c67c40d6f0?type=w580" width="500">
 </a>
 
-### 🥩관리자 공지사항(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
+### 🥩관리자 공지사항(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/project_2/wiki/%EA%B4%80%EB%A6%AC%EC%9E%90-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD(%EA%B8%80%EC%93%B0%EA%B8%B0,%EA%B8%80%EC%88%98%EC%A0%95,%EA%B8%80%EC%82%AD%EC%A0%9C)"> WIKI로 이동</a>
 - 관리자 글쓰기 버튼 : 회원(자유게시판으로 이동) , 비회원(로그인으로 이동)
 - 작성한 글의 제목을 클릭하면 조회수가 오른다.
 - 제목, 내용으로 검색 및 최신 작성 순으로 정렬
@@ -101,7 +101,7 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/daffca18-25f9-4c59-9317-a18298c40ca8?type=w580" width="500">
 </a>
 
-### 🥩자유게시판(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/RedMedicine2/wiki/%EC%83%81%EB%8B%B4%EC%82%AC%ED%94%84%EB%A1%9C%ED%95%84(%EB%AA%A9%EB%A1%9D%EB%B3%B4%EA%B8%B0)#%EA%B8%B0%EB%8A%A5%EC%86%8C%EA%B0%9C"> WIKI로 이동</a>
+### 🥩자유게시판(글쓰기,글수정,글삭제)<a href="https://github.com/NohEuijin/project_2/wiki/%EC%9E%90%EC%9C%A0%EA%B2%8C%EC%8B%9C%ED%8C%90(%EA%B8%80%EC%93%B0%EA%B8%B0,%EA%B8%80%EC%88%98%EC%A0%95,%EA%B8%80%EC%82%AD%EC%A0%9C)"> WIKI로 이동</a>
 - 작성한 글의 제목을 클릭하면 조회수 증가
 - 제목, 닉네임, 내용으로 검색 및 최신 작성 순으로 정렬
 - 게시글 10개 당 1페이지로 페이징 처리
