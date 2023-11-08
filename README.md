@@ -67,6 +67,15 @@
  <img src="https://github.com/NohEuijin/project_2/assets/141835418/8ce7270b-9aeb-481f-889c-9ee7c05cc7df?type=w580" width="500">
 </a>
 
+### 🥩마이페이지(회원수정)<a href="https://github.com/NohEuijin/project_2/wiki/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%E2%80%90%EB%A1%9C%EA%B7%B8%EC%9D%B8"> WIKI로 이동</a>
+- 아이디, 이메일은 수정 불가능
+- 비밀번호 8~12 자리로 수정가능
+- 회원탈퇴 버튼 클릭시 확인 알람 확인 후 탈퇴 처리 
+
+<a href="https://github.com/NohEuijin/project_2/assets/141835418/dad0c8c4-df05-49da-be01-bfee1041f522"> 
+ <img src="https://github.com/NohEuijin/project_2/assets/141835418/dad0c8c4-df05-49da-be01-bfee1041f522?type=w580" width="500">
+</a>
+
 ### 🥩 우리동네헬스장(지도API)<a href="https://github.com/NohEuijin/project_2/wiki/%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4%ED%97%AC%EC%8A%A4%EC%9E%A5(%EC%A7%80%EB%8F%84API)"> WIKI로 이동</a>
 - 지역 검색을 통한 헬스장 찾는 기능
 - 비회원도 이용 가능
